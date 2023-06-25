@@ -1,0 +1,392 @@
+* {
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+body {
+    margin:0;
+   line-height: 1.6;
+    font-family: 'Gilory-Bold' sans-serif; 
+    background-color:white;
+    width:100vw;
+    overflow-x: hidden;
+    
+}
+a  {
+    text-decoration: none;
+    
+}
+.container {
+    width:1440px;
+    margin:0 auto;
+}
+.hero {
+    position: relative;
+   width:1150px;
+    /* height:100vh; */
+    background: #FFF;
+    margin:0 auto;
+    /* padding-bottom: 100px; */
+}
+.header {
+font-size: 1rem;
+font-family:'Gilory-Medium' sans-serif;
+display:flex;
+align-items: center;
+justify-content:space-between ;
+padding: 12px 28px;
+width:100% ;
+font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-one {
+    width:70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+.nav-links {
+    color:black;
+}
+
+.nav-links:hover {
+    color :#0065FE;
+}
+.frame-one {
+ display:flex;
+align-items: inline-flex;
+gap: 40px;
+width: auto 504px;
+height: auto 24px;
+}
+
+
+.features {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.features p {
+margin-right: 5px;;
+}
+
+strong {
+    color: #005AE2;
+}
+
+.frame-two {
+    display:flex;
+    align-items: center;
+    gap: 24px;
+    }
+
+.log-in{
+    color:#0065FE;
+}
+
+.try-free {
+    padding:5px 20px;
+    background-color:#0065FE ;
+    color: white;
+    text-decoration: none;
+    border-radius:100px;
+
+
+}
+
+.optimize {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.optim-one  {
+    display: flex;
+    flex-direction: column;
+   color: #141414;
+   text-align: center;
+   font-family: 'Gilroy-Bold', 'kanit';
+   }
+   .optim-one h1 {
+    line-height: 90px;
+    font-size: 3.1rem;
+    font-weight: 500;  
+    letter-spacing:-1px ;
+
+   }
+
+   .line-two {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:15px;
+   }
+   .url {
+    display:flex;
+    flex-direction: column;
+     max-width: fit-content;
+     align-items:center;
+     justify-items: center;
+     margin:0;
+     color:#0065FE;
+   }
+   
+.url h1 {
+    line-height: 1;
+}
+.url img{
+    width:150px;
+}
+
+
+.optim-two {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    font-size: 1.0rem;
+    font-family:'Gilroy-light' sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+}
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+    font-family:'Gilory-medium' sans-serif;
+
+}
+
+.hero-button {
+ display: flex;
+ padding:5px 30px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+}
+
+.sign-up{
+color: white;
+background-color: #0065FE;
+}
+
+.learn-more {
+    font-size: 16px;
+}
+
+.image-one {
+ margin: 50px auto 0 auto;
+ width: 950px;
+display: flex;
+justify-content:end ;
+}
+
+
+
+.why-section {
+    display: flex;
+    flex-direction: column;
+} 
+
+.bottom-image-wrapper {
+    width:100%;
+    height: fit-content;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0;
+    
+}
+.rectangle {
+     /* position: absolute; */
+     /* bottom:0; */
+     width: 100%;
+}
+.ellipse {
+position: absolute;
+width: 70%;
+right:10%;
+bottom: 15px;
+left:18%
+}
+.statistics {
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #F9FBFD;
+}
+
+.statistics-title {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-family: 'Gilory-Bold' sans-serif;
+    width:30%;
+}
+ .blue-text {
+    color:#0065FE ;
+}
+
+ .statistics-data {
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.stats {
+    width:22%;
+
+}
+.stats h3{
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.stats p {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.why-choose-scissors-wrapper {
+padding: 100px;
+}
+
+.why-choose-scissors-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.why-choose-scissors {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title-wrapper h3 {
+    margin-left: 10px;
+    font-size: 2.1rem;
+    font-family: 'Gilory-Bold' sans-serif;
+    
+}
+.text-wrapper {
+margin-top: 10px;
+margin-left: 20px;
+}
+ .key-features-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   gap:20px 50px;
+   /* column-gap: 50px; */
+ }
+
+ .key-features {
+    width: 40%;
+ }
+
+.image-icon-wrapper {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: rgba(50, 132, 255, 0.13);
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: fit-content;
+}
+
+.price-section {
+    padding:100px;
+
+}
+.price-section-intro {
+text-align: center;
+}
+.price-section-intro .title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+}
+.price-section-intro p {
+    font-size:1rem;
+}
+.price-option-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.price-option {
+    padding:20px 50px;
+    border:1px solid #005AE2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.price-option h3{
+    margin-top: 20px;
+}
+
+.price-option .user-capacity {
+    font-size: 1.3rem;
+    margin: 10px 0;
+
+}
+.price-option-list {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.price-option-big {
+    padding: 100px 100px;
+    background-color:rgba(30, 52, 72, 1) ;
+    color: white;
+}
+.price-option-list img {
+    margin-right: 10px;
+}
+
+.price-section-buttons {
+    margin-top: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+outline: none
+}
+.price-section-buttons button {
+    border: 1px solid #0065FE;
+    padding:  15px 20px;
+    background-color:white ;
+color: #0065FE;
+border-radius: 30px;
+}
+
+.price-section-buttons .select-pricing-bottom {
+ background-color: #0065FE;
+ color:white;
+}
